@@ -1,0 +1,26 @@
+{
+  "name": "project-docs-keeper",
+  "version": "1.0.0",
+  "description": "Auto-updates 3 local project docs (talk, dev log, deployment manual) based on git changes or file watch.",
+  "main": "scripts/project-docs-keeper.mjs",
+  "scripts": {
+    "update": "node ./scripts/project-docs-keeper.mjs",
+    "watch": "node ./scripts/project-docs-keeper.mjs --watch",
+    "install-hooks": "node ./scripts/project-docs-keeper.mjs --install-git-hooks",
+    "uninstall-hooks": "node ./scripts/project-docs-keeper.mjs --uninstall-git-hooks"
+  },
+  "keywords": [
+    "trae",
+    "skill",
+    "documentation",
+    "git",
+    "automation",
+    "project-management"
+  ],
+  "author": "Damond",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Damond-Fung/project-docs-keeper.git"
+  }
+}
